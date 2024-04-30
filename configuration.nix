@@ -17,7 +17,7 @@
   boot.loader.efi.canTouchEfiVariables = true;
 
   boot.initrd.luks.devices."luks-e5957f8b-8cc8-4a92-a12a-2fbd3615979f".device = "/dev/disk/by-uuid/e5957f8b-8cc8-4a92-a12a-2fbd3615979f";
-  networking.hostName = "pjrtk-nb-998"; # Define your hostname.
+  networking.hostName = "######"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Configure network proxy if necessary
